@@ -6,7 +6,9 @@ public class Main {
 
             int a,b,c,d;
 
+
             Scanner inp = new Scanner(System.in);
+
 
             System.out.print("1.Sayıyı Giriniz:");
             a = inp.nextInt();
