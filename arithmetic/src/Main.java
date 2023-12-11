@@ -6,10 +6,10 @@ public class Main {
 
             int a,b,c,d;
 
-
+            
             Scanner inp = new Scanner(System.in);
 
-
+            // Kullanıcıdan scanner kullanarak değerleri alıyoruz
             System.out.print("1.Sayıyı Giriniz:");
             a = inp.nextInt();
             System.out.print("2.Sayıyı Giriniz:");
