@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        double armut=2.14, elma=3.67, domates=1.11, muz=0.95, patlican=5.00, toplam=0.0;
+        double pear=2.14, apple=3.67, tomato=1.11, banana=0.95, eggplant=5.00, total=0.0;
 
         Scanner inp = new Scanner(System.in);
 
@@ -15,21 +15,21 @@ public class Main {
         // Scanner kullanarak kullanıcıdan değerleri aldım
 
         System.out.print("Armut Kac Kilo ? : ");
-        toplam = toplam + inp.nextDouble() * armut;
+        total = total + inp.nextDouble() * pear;
 
         System.out.print("Elma Kac Kilo ? : ");
-        toplam = toplam + inp.nextDouble() * elma;
+        total = total + inp.nextDouble() * apple;
 
         System.out.print("Domates Kac Kilo ? : ");
-        toplam = toplam + inp.nextDouble() * domates;
+        total = total + inp.nextDouble() * tomato;
 
         System.out.print("Muz Kac Kilo ? : ");
-        toplam = toplam + inp.nextDouble() * muz;
+        total = total + inp.nextDouble() * banana;
 
-        System.out.print("Patlican KaÃ§ Kilo ? : ");
-        toplam = toplam + inp.nextDouble() * patlican;
+        System.out.print("Patlican Kac Kilo ? : ");
+        total = total + inp.nextDouble() * eggplant;
 
-        System.out.print("Toplam Tutar : " +toplam);
+        System.out.print("Toplam Tutar : " +total);
 
 
 
