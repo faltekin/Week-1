@@ -15,9 +15,11 @@ public class Main {
             num = inp.nextInt();
             if (i == 1)
             {
+                // Döngünün başında girdiğim ilk sayının değerini min ve max olarak belirledim
                 numMax = num;
                 numMin = num;
             }
+                // Girdiğim ikinci sayıda oluşturduğum iki sorguya göre min veya max kontrolü yaptım
             if (num > numMax)
             {
                 numMax = num;
