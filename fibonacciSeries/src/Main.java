@@ -11,9 +11,10 @@ public class Main {
 
         for (int i=1;i<num;i++){
 
-            System.out.print(num1+"+"+num2);
             num3 = num1 + num2;
-            System.out.println("="+num3);
+
+            System.out.println(num1+"+"+num2+"="+num3);
+
 
             // Döngü devam ettikçe num1 ve num2 değerleri değişir
             num1 = num2;
